@@ -8,13 +8,13 @@ if action_math_operation != "+" and action_math_operation != "-" and action_math
     print("Error. Incorrect action.")
 
 elif action_math_operation == "+":
-    print(str(number1_math_operation), "+", str(number2_math_operation), "=", number1_math_operation + number2_math_operation, end=" \n \n")
+    print(str(number1_math_operation), "+", str(number2_math_operation), "=", number1_math_operation + number2_math_operation)
 elif action_math_operation == "-":
-    print(str(number1_math_operation), "-", str(number2_math_operation), "=", number1_math_operation - number2_math_operation, end=" \n \n")
+    print(str(number1_math_operation), "-", str(number2_math_operation), "=", number1_math_operation - number2_math_operation)
 elif action_math_operation == "*":
-    print(str(number1_math_operation), "*", str(number2_math_operation), "=", number1_math_operation * number2_math_operation, end=" \n \n")
+    print(str(number1_math_operation), "*", str(number2_math_operation), "=", number1_math_operation * number2_math_operation)
 
 elif number2_math_operation == 0:
     print("Error. Numbers are not divisible by zero.")
 else:
-    print(str(number1_math_operation), "/", str(number2_math_operation), "=", number1_math_operation / number2_math_operation, end=" \n \n")
+    print(str(number1_math_operation), "/", str(number2_math_operation), "=", number1_math_operation / number2_math_operation)
