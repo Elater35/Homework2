@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6956bafb-8397-4940-989f-fe712bd8cfa9" name="Changes" comment="Homework3.1.py">
+    <list default="true" id="6956bafb-8397-4940-989f-fe712bd8cfa9" name="Changes" comment="Homework_3.2.py">
+      <change afterPath="$PROJECT_DIR$/Homework_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_3.1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_3.2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_3.3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_4.1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework3.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework3.1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework3.1list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework3.1.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +56,8 @@
     &quot;Python.Homework2.executor&quot;: &quot;Run&quot;,
     &quot;Python.Homework3.1.executor&quot;: &quot;Run&quot;,
     &quot;Python.Homework3.1list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Homework_3.2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Homework_3.3.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -68,6 +75,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Hillel\Homeworks\Homework_2\PythonProject2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Hillel\Homeworks\Homework_2\PythonProject2\" />
       <recent name="D:\Hillel\Homeworks\Homework_2\PythonProject2" />
     </key>
   </component>
@@ -89,7 +100,13 @@
       <workItem from="1780054246009" duration="693000" />
       <workItem from="1780072436334" duration="500000" />
       <workItem from="1780223503562" duration="6958000" />
-      <workItem from="1780403864450" duration="2638000" />
+      <workItem from="1780403864450" duration="3566000" />
+      <workItem from="1780416665482" duration="2186000" />
+      <workItem from="1780551008043" duration="3937000" />
+      <workItem from="1780567398165" duration="3842000" />
+      <workItem from="1780573365596" duration="724000" />
+      <workItem from="1780574502110" duration="3762000" />
+      <workItem from="1780651148314" duration="1200000" />
     </task>
     <task id="LOCAL-00001" summary="Homework3.1.py">
       <option name="closed" value="true" />
@@ -99,13 +116,30 @@
       <option name="project" value="LOCAL" />
       <updated>1780244003214</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Homework3.1_1.py">
+      <option name="closed" value="true" />
+      <created>1780406622699</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1780406622699</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Homework3.1.py">
+      <option name="closed" value="true" />
+      <created>1780406898652</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1780406898652</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Homework3.1_1.py" />
     <MESSAGE value="Homework3.1.py" />
     <option name="LAST_COMMIT_MESSAGE" value="Homework3.1.py" />
   </component>
@@ -122,8 +156,14 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Homework2_py$Homework3_1list.coverage" NAME="Homework3.1list Coverage Results" MODIFIED="1780243802803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Homework3_1_py$Homework_3_2.coverage" NAME="Homework_3.2 Coverage Results" MODIFIED="1780559513128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Homework_4_1_py$Homework_3_2.coverage" NAME="Homework_3.2 Coverage Results" MODIFIED="1780651595638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Homework2_py$Homework3_1.coverage" NAME="Homework3.1 Coverage Results" MODIFIED="1780243923724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Homework_3_2_py$Homework_3_3.coverage" NAME="Homework_3.3 Coverage Results" MODIFIED="1780571031415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Homework3_1_py$Homework3_1.coverage" NAME="Homework3.1 Coverage Results" MODIFIED="1780406558953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Homework2_py$Homework2.coverage" NAME="Homework2 Coverage Results" MODIFIED="1780054295272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Homework_4_1_py$Homework_3_3.coverage" NAME="Homework_3.3 Coverage Results" MODIFIED="1780652325574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Homework_3_2_py$Homework_3_2.coverage" NAME="Homework_3.2 Coverage Results" MODIFIED="1780567975558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Homework_3_3_py$Homework_3_3.coverage" NAME="Homework_3.3 Coverage Results" MODIFIED="1780574761979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
