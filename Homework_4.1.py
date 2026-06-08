@@ -1,9 +1,12 @@
 # Перемістити всі нулі до кінця списку.
 
+# input_lst = []
 # input_lst = [0]
 # input_lst = [2, 0, 0, 16, 0, 3, 27, 0, 5, 318, 7, 55, 9]
 # input_lst = [2, 16, 3, 27, 5, 318, 7, 55, 9]
+
 input_lst = [0, 2, 16, 0, 3, 27, 0, 5, 318, 7, 55, 9, 0, 0, 0, 0, 0]
+
 print(input_lst)
 
 number_zeros_of_lst = input_lst.count(0)
