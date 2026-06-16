@@ -19,7 +19,7 @@ if input_str[0].isdigit() or (input_str in keyword.kwlist) or ("__" in input_str
 
 else:
     for item_1 in input_str:
-        if 65 <= ord(item_1) <= 90 or item_1 == " " or item_1 in string.punctuation and item_1 != "_":
+        if 65 <= ord(item_1) <= 90 or item_1 == " " or (item_1 in string.punctuation and item_1 != "_"):
             print("False. This string cannot be a variable name.")
             break
         index_ += +1
