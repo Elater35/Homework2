@@ -1,4 +1,4 @@
-# Перетворити рядок на hashtag.
+#  Перетворити рядок на hashtag.
 
 import string
 # print(string.punctuation)
