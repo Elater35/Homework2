@@ -7,13 +7,13 @@ hours_ = (int(input_str) % (24*60*60)) // (60*60)
 minutes_ = ((int(input_str) % (24*60*60)) % (60 * 60)) // 60
 seconds_ = ((int(input_str) % (24*60*60)) % (60 * 60)) % 60
 
-print(days_, " days, ", str(hours_).zfill(2), ":", str(minutes_).zfill(2), ":", str(seconds_).zfill(2), ".", sep = "")
+if str(days_)[-1] == "1" and str(days_).zfill(2)[-2] != "1":
+    days_word = " день, "
 
-# або
+elif str(days_)[-1] in "2, 3, 4" and str(days_).zfill(2)[-2] != "1":
+    days_word = " дні, "
 
-days_ = divmod(int(input_str), 24*60*60)[0]
-hours_ = divmod(divmod(int(input_str), 24*60*60)[1], 60*60)[0]
-minutes_ = divmod(divmod(divmod(int(input_str), 24*60*60)[1], 60*60)[1], 60)[0]
-seconds_ = divmod(divmod(divmod(int(input_str), 24*60*60)[1], 60*60)[1], 60)[1]
+else:
+    days_word = " днів, "
 
-print(days_, " days, ", str(hours_).zfill(2), ":", str(minutes_).zfill(2), ":", str(seconds_).zfill(2), ".", sep = "")
+print(days_, days_word, str(hours_).zfill(2), ":", str(minutes_).zfill(2), ":", str(seconds_).zfill(2), ".", sep = "")
