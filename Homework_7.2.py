@@ -2,10 +2,10 @@
 
 def correct_sentence(text):
 
-    if text.strip()[-1] in (".", "!", "?"):
-        text_result = text.strip()
+    if text[-1] == ".":
+        text_result = text
     else:
-        text_result = text.strip() + "."
+        text_result = text + "."
 
     if not text_result[0].istitle():
         text_result = text_result[0].title()+text_result[1:]
