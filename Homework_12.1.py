@@ -2,10 +2,10 @@
 
 def prime_generator(end):
 
-    lst_prime_numbers = list(range(3, end + 1, 2))
-    lst_prime_numbers.insert(0, 2)
+    lst_numbers_to_prime = list(range(3, end + 1, 2))
+    lst_numbers_to_prime.insert(0, 2)
 
-    for item in lst_prime_numbers:
+    for item in lst_numbers_to_prime:
 
         if item in (2, 3):
              yield item
