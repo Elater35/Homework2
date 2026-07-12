@@ -14,10 +14,8 @@ def delete_html_tags(html_file, result_file='cleaned.txt'):
             return clean_html(text)
 
 
-    text_res = clean_html(html)
-
     with open(result_file, 'w', encoding='utf-8') as file_1:
-        file_1.write(text_res)
+        file_1.write(clean_html(html))
 
 
 def delete_empty_str(cleaned_file, result_file_1='cleaned_res.txt'):
@@ -25,10 +23,9 @@ def delete_empty_str(cleaned_file, result_file_1='cleaned_res.txt'):
         draft_text = file_1.readlines() # для невеликих файлів використовуємо "readlines()"
 
     draft_text = [item for item in draft_text if item not in ("\n", " \n")]
-    cleaned_file_txt = "".join(draft_text)
 
     with open(result_file_1, 'w', encoding='utf-8') as file_2:
-        file_2.write(cleaned_file_txt)
+        file_2.write("".join(draft_text))
 
 
 delete_html_tags("draft.html")
